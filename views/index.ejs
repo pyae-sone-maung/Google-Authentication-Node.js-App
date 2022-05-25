@@ -5,10 +5,18 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title> Authentication </title>
+     <link href="css/style.css" rel="stylesheet" type="text/css">
+     <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js" integrity="sha384-xBXmu0dk1bEoiwd71wOonQLyH+VpgR1XcDH3rtxrLww5ajNTuMvBdL5SOiFZnNdp" crossorigin="anonymous"></script>
 </head>
-<body>
-     <h3> Authentication </h3>
-     <p> Login or Register </p>
-     <a href="/auth/google"> <button> Sign In with Google</button></a>
+<body class="bg-gray-200 ">
+     <div class="container mx-auto grid place-items-center">
+          <h1 class=" pt-20 text-2xl text-center text-blue-700 font-bold font-mono">
+               <i class="fa-solid fa-lock"></i>
+               AUTHENTICATION
+          </h1>
+          <br />     
+          <p class="text-center pb-3 text-blue-500 font-bold font-mono"> Login or Register </p>
+          <a class="text-center px-3 py-1 hover:bg-sky-700 rounded-lg shadow-lg bg-indigo-500 text-white text-xs font-mono" href="/auth/google"> <i class="fa-brands fa-google"></i> Sign In With Google </a>
+     </div>
 </body>
 </html>
