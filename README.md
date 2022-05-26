@@ -7,8 +7,8 @@
 
 <table> 
      <tr> 
-          <td> <img src="./public/image/login.png" width=200 heigh=200> </td>
-          <td> <img src="./public/image/profile.png" width=200 heigh=200></td>
+          <td> <img src="./public/image/login.png" width=250 heigh=250> </td>
+          <td> <img src="./public/image/profile.png" width=250 heigh=250></td>
      </tr>
 </table>
 
